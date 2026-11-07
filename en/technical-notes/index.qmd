@@ -12,6 +12,11 @@ listing:
   feed: true
 ---
 
+::: {.language-switch}
+[繁體中文](../../zh/technical-notes/index.html){target="_self"}
+:::
+
+
 Mathematical foundations, theoretical arguments, and worked examples.
 
 The initial entry is an **illustrative demonstration**. [Subscribe via RSS](index.xml).

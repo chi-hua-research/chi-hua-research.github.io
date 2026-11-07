@@ -1,6 +1,6 @@
 ---
-title: "Research Notes"
-description: "Research ideas across statistics, machine learning, operations management, and decision science."
+title: "Research Journal"
+description: "Dated reflections, open questions, and possible next steps."
 toc: false
 listing:
   contents: "*/index.qmd"
@@ -12,6 +12,11 @@ listing:
   feed: true
 ---
 
-Research ideas across statistics, machine learning, operations management, and decision science.
+::: {.language-switch}
+[繁體中文](../../zh/research-journal/index.html){target="_self"}
+:::
+
+
+Dated reflections, open questions, and possible next steps.
 
 The initial entry is an **illustrative demonstration**. [Subscribe via RSS](index.xml).

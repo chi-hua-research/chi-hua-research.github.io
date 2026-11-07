@@ -5,6 +5,11 @@ categories: [Mathematical Foundations, Decision Science]
 description: "An illustrative quadratic objective, a unique minimizer, and a short proof."
 ---
 
+::: {.language-switch}
+[繁體中文](../../../zh/technical-notes/convex-optimization/index.html){target="_self"}
+:::
+
+
 ::: {.callout-note}
 ## Illustrative demonstration
 This is a standard educational example, not a novel result or a report of completed research.

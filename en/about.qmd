@@ -3,6 +3,11 @@ title: "About"
 toc: false
 ---
 
+::: {.language-switch}
+[繁體中文](../zh/about.html){target="_self"}
+:::
+
+
 Chi-Hua Research is a personal research notebook focused on **statistics, machine learning, and decision science**, with connections to operations management and mathematical foundations.
 
 The aim is to make thinking visible: to record derivations, clarify assumptions, explore technical tools, and keep track of questions that deserve further attention.

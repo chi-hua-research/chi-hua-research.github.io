@@ -1,36 +1,19 @@
 ---
 title: "Chi-Hua Research"
-subtitle: "Statistics, Machine Learning, and Decision Science"
-toc: false
+subtitle: "Statistics, Machine Learning, and Decision Science · 統計學、機器學習與決策科學"
 ---
 
 ::: {.intro}
-Welcome to Chi-Hua Research, a space for exploring ideas at the intersection of statistics, machine learning, and decision science. This website collects research notes, mathematical derivations, technical explorations, and ongoing research questions.
+A personal notebook for research ideas, mathematical derivations, and questions in progress.
+
+記錄研究想法、數學推導，以及持續探索中的問題。
 :::
 
-## A notebook for ideas in progress
+## Choose your language · 選擇語言
 
-Good questions often begin between disciplines. This notebook makes room for careful arguments, useful abstractions, and the small steps that connect theory with decisions.
+- [English — Enter the research notebook](en/index.html)
+- [繁體中文 — 進入研究筆記](zh/index.html)
 
-::: {.section-grid}
-::: {.section-card}
-### [Research Notes](research-notes/index.qmd)
-Ideas, methods, and connections across statistics, machine learning, operations management, and decision science.
-:::
-::: {.section-card}
-### [Technical Notes](technical-notes/index.qmd)
-Mathematical foundations, propositions, proofs, and reproducible examples.
-:::
-::: {.section-card}
-### [Research Journal](research-journal/index.qmd)
-Short reflections, open questions, and directions worth exploring.
-:::
-:::
+Both editions contain the same paired articles. Updates are checked together before publication.
 
-## Start reading
-
-- [Welcome to My Research Notes](research-notes/welcome/index.qmd)
-- [A Simple Convex Optimization Example](technical-notes/convex-optimization/index.qmd)
-- [Exploring New Questions](research-journal/exploring-questions/index.qmd)
-
-These three initial articles are **illustrative demonstrations**, not reports of completed research or published findings. [About this notebook](about.qmd).
+中英文版文章成對維護，發布前會檢查兩邊是否一併更新。

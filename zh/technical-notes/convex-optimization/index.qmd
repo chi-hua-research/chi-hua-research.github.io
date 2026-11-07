@@ -1,0 +1,73 @@
+---
+title: "數學筆記：一個簡單的凸最佳化範例"
+date: 2026-11-07
+categories: [數學基礎, 決策科學]
+description: "透過示範性的二次目標函數，介紹唯一最小解與簡短證明。"
+---
+
+::: {.language-switch}
+[English](../../../en/technical-notes/convex-optimization/index.html){target="_self"}
+:::
+
+
+::: {.callout-note}
+## 示範內容
+這是一個標準的教學範例，並非新的研究結果或已完成研究的報告。
+:::
+
+## 目標函數與假設
+
+令 $a \in \mathbb{R}$ 且 $\lambda > 0$。考慮以下無限制最佳化問題
+
+$$
+\min_{x \in \mathbb{R}} f(x), \qquad
+f(x) = \frac{1}{2}(x-a)^2 + \frac{\lambda}{2}x^2.
+$$ {#eq-objective}
+
+第一項懲罰偏離 $a$ 的程度，第二項懲罰決策值的大小。這個簡單的權衡展示了二次正則化的概念。
+
+## 唯一解
+
+::: {#prp-minimizer}
+對於 @eq-objective 中的目標函數，唯一的全域最小解為
+
+$$
+x^\star = \frac{a}{1+\lambda}.
+$$
+:::
+
+::: {.proof}
+微分可得
+
+$$
+f'(x) = (1+\lambda)x-a, \qquad f''(x) = 1+\lambda > 0.
+$$
+
+駐點為 $x^\star=a/(1+\lambda)$。利用配方法，可以直接驗證全域最優性與唯一性：
+
+$$
+f(x) = \frac{1+\lambda}{2}
+\left(x-\frac{a}{1+\lambda}\right)^2
++ \frac{\lambda a^2}{2(1+\lambda)}.
+$$
+
+平方項非負，且只有在 $x^\star$ 處等於零。因此 @prp-minimizer 得證。
+:::
+
+## 數值示範
+
+當 $a=3$ 且 $\lambda=2$ 時，解為 $x^\star=1$，且 $f(x^\star)=3$。
+
+```{.python}
+# Plain Python; no external dependencies required.
+a, penalty = 3.0, 2.0
+x_star = a / (1.0 + penalty)
+objective = 0.5 * (x_star - a)**2 + 0.5 * penalty * x_star**2
+print(x_star, objective)  # 1.0 3.0
+```
+
+## 解讀與限制
+
+當 $\lambda$ 增加時，最小解向零移動；當 $\lambda \to 0^+$ 時，最小解趨近 $a$。這展示了懲罰項帶來的權衡，但並不能證明某個特定懲罰強度適合真實的決策問題。
+
+若加入限制、改用非二次損失函數，或考慮 $a$ 的不確定性，就需要額外分析。[研究日誌](../../research-journal/exploring-questions/index.qmd)示範如何記錄這些後續問題。

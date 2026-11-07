@@ -18,8 +18,12 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: '1.8.27'
+      - name: Test bilingual publication guard
+        run: python3 scripts/test-translations.py
       - name: Render website
         run: quarto render
+      - name: Verify bilingual site links and feeds
+        run: python3 scripts/check-site.py
       - name: Upload Pages artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3

@@ -1,0 +1,22 @@
+---
+title: "技術筆記"
+description: "整理數學基礎、理論論證與具體範例。"
+toc: false
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories]
+  date-format: "YYYY-MM-DD"
+  feed: true
+---
+
+::: {.language-switch}
+[English](../../en/technical-notes/index.html){target="_self"}
+:::
+
+
+整理數學基礎、理論論證與具體範例。
+
+最初的文章為**示範內容**。[訂閱 RSS](index.xml)。

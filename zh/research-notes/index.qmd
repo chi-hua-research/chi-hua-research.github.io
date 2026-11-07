@@ -1,0 +1,22 @@
+---
+title: "研究筆記"
+description: "探索統計學、機器學習、作業管理與決策科學中的研究想法。"
+toc: false
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories]
+  date-format: "YYYY-MM-DD"
+  feed: true
+---
+
+::: {.language-switch}
+[English](../../en/research-notes/index.html){target="_self"}
+:::
+
+
+探索統計學、機器學習、作業管理與決策科學中的研究想法。
+
+最初的文章為**示範內容**。[訂閱 RSS](index.xml)。

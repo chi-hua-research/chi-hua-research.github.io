@@ -1,0 +1,22 @@
+---
+title: "研究日誌"
+description: "依日期記錄反思、開放問題與可能的下一步。"
+toc: false
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories]
+  date-format: "YYYY-MM-DD"
+  feed: true
+---
+
+::: {.language-switch}
+[English](../../en/research-journal/index.html){target="_self"}
+:::
+
+
+依日期記錄反思、開放問題與可能的下一步。
+
+最初的文章為**示範內容**。[訂閱 RSS](index.xml)。

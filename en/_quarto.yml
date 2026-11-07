@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: ../_site/en
+website:
+  title: "Chi-Hua Research"
+  description: "Statistics, Machine Learning, and Decision Science"
+  site-url: https://chi-hua-research.github.io/en
+  search: true
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research-notes/index.qmd
+        text: Research Notes
+      - href: technical-notes/index.qmd
+        text: Technical Notes
+      - href: research-journal/index.qmd
+        text: Research Journal
+      - href: about.qmd
+        text: About
+  page-footer:
+    left: "Chi-Hua Research · An open research notebook"
+    right: "Built with Quarto"
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: /styles.css
+    html-math-method:
+      method: mathjax
+      url: /assets/mathjax/tex-chtml-full.js
+    toc: true
+    code-copy: true
+    anchor-sections: true
+    link-external-newwindow: false
+lang: en

@@ -5,6 +5,11 @@ categories: [Decision Science, Statistics]
 description: "An illustrative journal entry about uncertainty and decisions."
 ---
 
+::: {.language-switch}
+[繁體中文](../../../zh/research-journal/exploring-questions/index.html){target="_self"}
+:::
+
+
 ::: {.callout-note}
 ## Illustrative demonstration
 This dated entry demonstrates the journal format. It does not describe actual research progress or published findings.
