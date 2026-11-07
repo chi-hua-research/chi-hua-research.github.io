@@ -1,0 +1,27 @@
+---
+title: "Research Journal: Exploring New Questions"
+date: 2026-11-07
+categories: [Decision Science, Statistics]
+description: "An illustrative journal entry about uncertainty and decisions."
+---
+
+::: {.callout-note}
+## Illustrative demonstration
+This dated entry demonstrates the journal format. It does not describe actual research progress or published findings.
+:::
+
+## November 7, 2026 — A question to explore
+
+How should uncertainty in an estimated quantity affect a downstream decision? A point estimate can be convenient, but it may hide distinctions between decisions with very different consequences.
+
+The [quadratic optimization example](../../technical-notes/convex-optimization/index.qmd) assumes that the target $a$ is known. A possible next exercise would replace that assumption with a simple probability model.
+
+## Open questions
+
+- When does minimizing expected loss produce the same decision as using a point estimate?
+- How would a feasibility constraint change the answer?
+- Which assumptions can be tested with a small simulation?
+
+## A possible next step
+
+Write down one loss function, specify the uncertainty model, and compare the resulting decisions analytically before adding numerical complexity. This is a proposed educational exercise, not a claim that an investigation has been conducted.

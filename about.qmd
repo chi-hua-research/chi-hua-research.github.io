@@ -1,0 +1,18 @@
+---
+title: "About"
+toc: false
+---
+
+Chi-Hua Research is a personal research notebook focused on **statistics, machine learning, and decision science**, with connections to operations management and mathematical foundations.
+
+The aim is to make thinking visible: to record derivations, clarify assumptions, explore technical tools, and keep track of questions that deserve further attention.
+
+## How to read this notebook
+
+[Research Notes](research-notes/index.qmd) develop ideas and connections. [Technical Notes](technical-notes/index.qmd) give space to definitions, propositions, proofs, and code. The [Research Journal](research-journal/index.qmd) records shorter reflections and open problems.
+
+Notes can evolve as understanding improves. An exploratory argument should be read alongside its assumptions and limitations.
+
+## Demonstration content
+
+The three initial articles are explicitly labeled illustrative examples. They demonstrate the site's format and do not represent completed research, publications, or claims of novel findings.

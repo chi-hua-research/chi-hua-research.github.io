@@ -1,0 +1,32 @@
+---
+title: "Welcome to My Research Notes"
+date: 2026-11-07
+categories: [Statistics, Machine Learning, Operations Management, Decision Science]
+description: "An illustrative introduction to a notebook for iterative research."
+---
+
+::: {.callout-note}
+## Illustrative demonstration
+This example introduces the format of the blog. It is not a report of completed research or published findings.
+:::
+
+## Why keep research notes?
+
+Research is an iterative process. A question leads to an assumption; an assumption suggests a model; a calculation reveals where that model helps and where it falls short. Recording these steps makes it easier to return to an idea with greater clarity.
+
+This notebook is a place for that work: mathematical derivations, technical explorations, connections between disciplines, and questions whose answers are still uncertain.
+
+## Connecting methods and decisions
+
+Statistics helps us reason about uncertainty. Machine learning offers tools for learning patterns. Operations management and decision science ask how those insights should inform action under constraints.
+
+A useful note might begin with a simple question: how does uncertainty in an estimate change the decision we would make? Even a small example can reveal which assumptions matter.
+
+## A working practice
+
+1. State the question and assumptions.
+2. Work through a small, checkable example.
+3. Identify limitations and possible counterexamples.
+4. Revise the argument and record the next question.
+
+For a demonstration of a formal argument, see the [convex optimization note](../../technical-notes/convex-optimization/index.qmd). Shorter questions belong in the [research journal](../../research-journal/index.qmd).

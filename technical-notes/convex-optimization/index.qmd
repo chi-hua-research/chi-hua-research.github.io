@@ -1,0 +1,68 @@
+---
+title: "Mathematical Notes: A Simple Convex Optimization Example"
+date: 2026-11-07
+categories: [Mathematical Foundations, Decision Science]
+description: "An illustrative quadratic objective, a unique minimizer, and a short proof."
+---
+
+::: {.callout-note}
+## Illustrative demonstration
+This is a standard educational example, not a novel result or a report of completed research.
+:::
+
+## Objective and assumptions
+
+Let $a \in \mathbb{R}$ and $\lambda > 0$. Consider the unconstrained problem
+
+$$
+\min_{x \in \mathbb{R}} f(x), \qquad
+f(x) = \frac{1}{2}(x-a)^2 + \frac{\lambda}{2}x^2.
+$$ {#eq-objective}
+
+The first term penalizes deviation from $a$; the second penalizes the magnitude of the decision. This simple trade-off gives an example of quadratic regularization.
+
+## A unique solution
+
+::: {#prp-minimizer}
+For the objective in @eq-objective, the unique global minimizer is
+
+$$
+x^\star = \frac{a}{1+\lambda}.
+$$
+:::
+
+::: {.proof}
+Differentiate to obtain
+
+$$
+f'(x) = (1+\lambda)x-a, \qquad f''(x) = 1+\lambda > 0.
+$$
+
+The stationary point is $x^\star=a/(1+\lambda)$. To verify global optimality and uniqueness directly, complete the square:
+
+$$
+f(x) = \frac{1+\lambda}{2}
+\left(x-\frac{a}{1+\lambda}\right)^2
++ \frac{\lambda a^2}{2(1+\lambda)}.
+$$
+
+The squared term is nonnegative and vanishes only at $x^\star$. This proves @prp-minimizer.
+:::
+
+## Numerical illustration
+
+For $a=3$ and $\lambda=2$, the solution is $x^\star=1$ and $f(x^\star)=3$.
+
+```{.python}
+# Plain Python; no external dependencies required.
+a, penalty = 3.0, 2.0
+x_star = a / (1.0 + penalty)
+objective = 0.5 * (x_star - a)**2 + 0.5 * penalty * x_star**2
+print(x_star, objective)  # 1.0 3.0
+```
+
+## Interpretation and limits
+
+As $\lambda$ increases, the minimizer moves toward zero. As $\lambda \to 0^+$, it approaches $a$. This behavior illustrates a penalty trade-off; it does not establish that a particular penalty is appropriate for a real decision problem.
+
+Constraints, a nonquadratic loss, or uncertainty about $a$ would require additional analysis. The [research journal](../../research-journal/exploring-questions/index.qmd) illustrates how to record such follow-up questions.

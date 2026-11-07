@@ -1,0 +1,23 @@
+/* System fonts keep reading fast and avoid external font requests. */
+:root { --research-blue: #235c96; }
+body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.75; }
+#quarto-content { max-width: 1240px; margin-inline: auto; }
+main.content { max-width: 820px; }
+h1, h2, h3 { letter-spacing: -0.025em; line-height: 1.25; }
+h1 { font-weight: 650; }
+h2 { margin-top: 2.3rem; }
+a { text-underline-offset: .2em; }
+.navbar { border-bottom: 1px solid rgba(128,128,128,.22); padding-block: .85rem; }
+.navbar-brand { font-weight: 650; letter-spacing: -.025em; }
+.quarto-title-block .subtitle { color: var(--research-blue); font-size: 1.15rem; margin-top: 1rem; }
+.intro { font-family: Georgia, "Times New Roman", serif; font-size: 1.35rem; line-height: 1.65; margin-block: 2rem; }
+.section-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.25rem; margin-block: 2rem; }
+.section-card { border-top: 3px solid var(--research-blue); padding-top: .7rem; }
+.section-card h3 { font-size: 1.15rem; }
+.section-card p { font-size: .95rem; }
+.quarto-dark { --research-blue: #8bbdec; }
+.quarto-dark .navbar { background-color: #20252b !important; }
+.quarto-dark .navbar a { color: #edf2f7; }
+.quarto-listing { margin-top: 1.5rem; }
+pre { border-radius: .35rem; }
+@media (max-width: 760px) { .section-grid { grid-template-columns: 1fr; } .intro { font-size: 1.15rem; } }
