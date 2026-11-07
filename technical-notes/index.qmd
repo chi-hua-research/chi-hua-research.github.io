@@ -1,0 +1,17 @@
+---
+title: "Technical Notes"
+description: "Mathematical foundations, theoretical arguments, and worked examples."
+toc: false
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories]
+  date-format: "MMM D, YYYY"
+  feed: true
+---
+
+Mathematical foundations, theoretical arguments, and worked examples.
+
+The initial entry is an **illustrative demonstration**. [Subscribe via RSS](index.xml).
