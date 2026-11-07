@@ -1,0 +1,41 @@
+---
+title: "Chi-Hua Research"
+subtitle: "統計學、機器學習與決策科學"
+toc: false
+---
+
+::: {.language-switch}
+[English](../en/index.html){target="_self"}
+:::
+
+
+::: {.intro}
+歡迎來到 Chi-Hua Research。這裡探索統計學、機器學習與決策科學交會之處的想法，收錄研究筆記、數學推導、技術探索，以及仍在發展中的研究問題。
+:::
+
+## 記錄持續發展的想法
+
+好的問題經常出現在不同學科之間。這份筆記為嚴謹的論證、有用的抽象，以及連結理論與決策的每一小步，保留思考空間。
+
+::: {.section-grid}
+::: {.section-card}
+### [研究筆記](research-notes/index.qmd)
+探索統計學、機器學習、作業管理與決策科學之間的想法、方法及連結。
+:::
+::: {.section-card}
+### [技術筆記](technical-notes/index.qmd)
+整理數學基礎、命題、證明，以及可重現的範例。
+:::
+::: {.section-card}
+### [研究日誌](research-journal/index.qmd)
+記錄簡短反思、開放問題，以及值得繼續探索的方向。
+:::
+:::
+
+## 開始閱讀
+
+- [歡迎來到我的研究筆記](research-notes/welcome/index.qmd)
+- [一個簡單的凸最佳化範例](technical-notes/convex-optimization/index.qmd)
+- [探索新的問題](research-journal/exploring-questions/index.qmd)
+
+最初的三篇文章皆為**示範內容**，並非已完成的研究或已發表的成果。[關於這份筆記](about.qmd)。

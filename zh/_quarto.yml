@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: ../_site/zh
+website:
+  title: "Chi-Hua Research"
+  description: "統計學、機器學習與決策科學"
+  site-url: https://chi-hua-research.github.io/zh
+  search: true
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: 首頁
+      - href: research-notes/index.qmd
+        text: 研究筆記
+      - href: technical-notes/index.qmd
+        text: 技術筆記
+      - href: research-journal/index.qmd
+        text: 研究日誌
+      - href: about.qmd
+        text: 關於
+  page-footer:
+    left: "Chi-Hua Research · 開放的研究筆記"
+    right: "以 Quarto 建置"
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: /styles.css
+    html-math-method:
+      method: mathjax
+      url: /assets/mathjax/tex-chtml-full.js
+    toc: true
+    code-copy: true
+    anchor-sections: true
+    link-external-newwindow: false
+lang: zh-TW

@@ -21,3 +21,5 @@ a { text-underline-offset: .2em; }
 .quarto-listing { margin-top: 1.5rem; }
 pre { border-radius: .35rem; }
 @media (max-width: 760px) { .section-grid { grid-template-columns: 1fr; } .intro { font-size: 1.15rem; } }
+
+.language-switch { text-align: right; font-size: .95rem; margin-bottom: 1rem; }

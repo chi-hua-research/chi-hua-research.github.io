@@ -5,6 +5,11 @@ categories: [Statistics, Machine Learning, Operations Management, Decision Scien
 description: "An illustrative introduction to a notebook for iterative research."
 ---
 
+::: {.language-switch}
+[繁體中文](../../../zh/research-notes/welcome/index.html){target="_self"}
+:::
+
+
 ::: {.callout-note}
 ## Illustrative demonstration
 This example introduces the format of the blog. It is not a report of completed research or published findings.

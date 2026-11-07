@@ -1,0 +1,34 @@
+{
+  "about.qmd": {
+    "en": "7d93092e95fd14f80ac9b911847a7381e6dcaa111ac5b5a1efd3a535fae602e5",
+    "zh": "942f010847bda876ff16ef4b915a8935d0219aa7107ba617a453df16a7d72401"
+  },
+  "index.qmd": {
+    "en": "9bcbb94324bcb2a3365537a7bfe316ad867b32717aa24323627ae7022f211fb5",
+    "zh": "15ae98801f4f3685f326268162b60772e042f54bbc8a5c2077d59ef383b42048"
+  },
+  "research-journal/exploring-questions/index.qmd": {
+    "en": "771ab6991d2ce9338edfb131eaa088cdd20e896bb5a85b794b5019a98b5e7ce2",
+    "zh": "a7845c53b565f05a96634cb498d1469e61d11438e158becba749acfb90b1d4c5"
+  },
+  "research-journal/index.qmd": {
+    "en": "952f4dd045a6a47e1423bc580001c21fc06cb7477f17a48958c4b4d1f4684696",
+    "zh": "f3ff7e0fffaafbc3a5aa3b9b77cce54394eb39029101b41d292eaf96bb50bedd"
+  },
+  "research-notes/index.qmd": {
+    "en": "14e7f49fa5197f186b7dfd2c31126444c7bc904f339a43b3763c0852dc88a237",
+    "zh": "e602b90c57248e768c77651d99d6fb424d384b13a99ac6f6aafc1b68a5448ed8"
+  },
+  "research-notes/welcome/index.qmd": {
+    "en": "44829395d20a23f67c1f4272ce7f6b78444622fb3ca5f086081a5f1b1ab89958",
+    "zh": "ba7dc4ebe22592ae43e3be533b96d6ae8529ee288eddf7ad032401929bd60df9"
+  },
+  "technical-notes/convex-optimization/index.qmd": {
+    "en": "907365314ff568a4bc74b78a6fbdecd764fd090781cea944599d91a05fb24333",
+    "zh": "1371dbdcb7c9f5618aad44823daeb2d7eed91c1c5f13569052555ab202265466"
+  },
+  "technical-notes/index.qmd": {
+    "en": "b649489b418f20054f43d2a4cf7a371c414f8b9fb097db760911063c565e23fc",
+    "zh": "e6061745aacf94827a93ad7f1e58fe8157786a3e748f4b39055578a4f2c2a97b"
+  }
+}
